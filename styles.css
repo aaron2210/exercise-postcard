@@ -1,0 +1,70 @@
+#divencabezado {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 5px;
+	background-color: rgba(64, 224, 208, 0.444);
+	border: 3px solid black;
+}
+#divtitulo {
+	margin-left: 120px;
+}
+#divimagen {
+	margin-right: 100px;
+}
+
+#divtexto {
+	width: 500px;
+}
+#divcuerpopostcard {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border: 3px solid black;
+	border-top: none;
+	border-bottom: none;
+}
+.divdatosinputs {
+	width: 455px;
+	height: 150px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+#divfinal {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	border: 3px solid black;
+	border-top: none;
+	padding-bottom: 15px;
+}
+h1 {
+	font-size: 5rem;
+}
+.boton {
+	text-decoration: none;
+	background-color: gray;
+	padding: 2px;
+	margin: 2px;
+	border-radius: 5px;
+	border: 1px solid black;
+	width: 250px;
+	height: auto;
+	text-align: center;
+}
+.boton p {
+	font-size: 30px;
+	font-weight: bold;
+	color: black;
+}
+p {
+	font-size: 30px;
+	font-family: "Slabo 27px", serif;
+	color: seagreen;
+}
+input {
+	height: 50px;
+	width: 450px;
+	font-size: 20px;
+}
