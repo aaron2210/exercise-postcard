@@ -1,4 +1,18 @@
-#divencabezado {
+body {
+	background: lightcoral;
+	padding-top: 180px;
+}
+.postcard {
+	background: white;
+	width: 400px;
+	height: 296px;
+	margin: auto;
+}
+/** {
+	border: 1px dashed red;
+	min-height: 10px;
+}*/
+.postcard-header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -6,17 +20,12 @@
 	background-color: rgba(64, 224, 208, 0.444);
 	border: 3px solid black;
 }
-#divtitulo {
-	margin-left: 120px;
-}
-#divimagen {
-	margin-right: 100px;
+.postcard-header img {
+	width: 50px;
+	height: 50px;
 }
 
-#divtexto {
-	width: 500px;
-}
-#divcuerpopostcard {
+.postcard-body {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -24,14 +33,13 @@
 	border-top: none;
 	border-bottom: none;
 }
-.divdatosinputs {
-	width: 455px;
-	height: 150px;
+.body-right {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
 }
-#divfinal {
+.postcard-footer {
+	text-align: center;
 	display: flex;
 	justify-content: center;
 	align-items: flex-end;
@@ -39,32 +47,37 @@
 	border-top: none;
 	padding-bottom: 15px;
 }
-h1 {
-	font-size: 5rem;
+.postcard-header h1 {
+	width: x;
+	margin: x;
 }
-.boton {
-	text-decoration: none;
+button {
 	background-color: gray;
 	padding: 2px;
-	margin: 2px;
 	border-radius: 5px;
-	border: 1px solid black;
-	width: 250px;
-	height: auto;
-	text-align: center;
-}
-.boton p {
-	font-size: 30px;
+	border: 0.5px solid black;
+	font-size: 12px;
 	font-weight: bold;
 	color: black;
 }
-p {
-	font-size: 30px;
+.body-left p:first-child {
+	margin-top: none;
+	font-size: 15px;
 	font-family: "Slabo 27px", serif;
 	color: seagreen;
 }
+.body-left p:last-child {
+	font-size: 15px;
+	font-family: "Slabo 27px", serif;
+	color: seagreen;
+}
+.body-left,
+.body-right {
+	padding: 5px;
+}
 input {
-	height: 50px;
-	width: 450px;
-	font-size: 20px;
+	border: none;
+	border-bottom: gray solid 1px;
+	height: 20px;
+	width: auto;
 }
